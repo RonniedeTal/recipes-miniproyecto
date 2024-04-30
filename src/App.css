@@ -58,8 +58,27 @@
 .imgNavBar{
   width:100px;
   
-
-
-
 }
-{/*flex-direction: justify;*/}
+
+.sider{
+
+  border:solid  5px black;
+  display: flex;
+  width: 100px;
+  flex-direction: column;
+  
+
+  padding:10px;
+  background-color: brown;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+
+#boton{
+  background-color: rgb(205, 205, 156);
+  border-radius: 8px;
+  padding: 0.5px;
+  margin:2px
+}

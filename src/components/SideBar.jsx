@@ -2,8 +2,9 @@ import React from 'react'
 
 function SideBar() {
   return (
-    <div>
-      <h1>ned</h1>
+    <div className="sider">
+      <button id="boton"><h3>HOME</h3></button>
+      <button id="boton"><h3>About Page</h3></button>
     </div>
   )
 }
