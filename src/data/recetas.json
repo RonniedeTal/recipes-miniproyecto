@@ -1,0 +1,78 @@
+[
+    {
+        "id":1,
+      "nombre": "Crema Catalana",
+      "vegano":false,
+      "ingredientes": [
+        "1 litro de leche entera",
+        "6 yemas de huevo",
+        "200 gramos de azúcar",
+        "1 rama de canela",
+        "La cáscara de 1 limón",
+        "2 cucharadas de maicena",
+        "Azúcar para caramelizar"
+      ],
+      "preparacion": [
+        "En una cacerola, calienta la leche con la canela y la cáscara de limón hasta que esté a punto de hervir.",
+        "Mientras tanto, bate las yemas de huevo con el azúcar hasta que estén espumosas.",
+        "Añade la maicena a las yemas y mezcla bien.",
+        "Retira la canela y la cáscara de limón de la leche y vierte la leche caliente sobre la mezcla de yemas, batiendo constantemente.",
+        "Coloca la mezcla nuevamente en la cacerola y cocina a fuego medio-bajo, revolviendo constantemente, hasta que espese.",
+        "Retira del fuego y vierte la crema en cazuelitas individuales.",
+        "Deja enfriar y refrigera durante al menos 2 horas.",
+        "Antes de servir, espolvorea una fina capa de azúcar sobre cada crema y carameliza con un soplete de cocina o debajo del grill del horno."
+      ]
+    },
+    {
+        "id":2,
+      "nombre": "Pa amb Tomàquet",
+      "vegano": true,
+      "ingredientes": [
+        "Pan de payés o rústico",
+        "Tomates maduros",
+        "Ajo",
+        "Aceite de oliva virgen extra",
+        "Sal"
+      ],
+      "preparacion": [
+        "Tuesta las rebanadas de pan en una parrilla o en el horno hasta que estén ligeramente doradas.",
+        "Pela los ajos y córtalos por la mitad.",
+        "Frota las rebanadas de pan con los ajos por ambos lados para impregnar el pan con su sabor.",
+        "Corta los tomates por la mitad y frota la pulpa sobre el pan.",
+        "Riega generosamente con aceite de oliva virgen extra y espolvorea con sal al gusto.",
+        "Sirve como acompañamiento o como aperitivo."
+      ]
+    },
+    {
+        "id":3,
+      "nombre": "Escudella i Carn d'Olla",
+      "vegano":false,
+      "ingredientes": [
+        "500 gramos de carne de ternera para cocido (costilla, morcillo, gallina)",
+        "200 gramos de tocino fresco",
+        "200 gramos de garbanzos",
+        "200 gramos de butifarra negra",
+        "200 gramos de butifarra blanca",
+        "1 hueso de jamón",
+        "1 hueso de espinazo de cerdo",
+        "1 hueso de caña",
+        "1 zanahoria",
+        "1 puerro",
+        "1 rama de apio",
+        "1 nabo",
+        "2 patatas",
+        "200 gramos de fideos gruesos",
+        "Sal al gusto"
+      ],
+      "preparacion": [
+        "En una olla grande, coloca la carne, el tocino, los huesos de jamón, espinazo y caña, y los garbanzos previamente remojados.",
+        "Añade agua suficiente para cubrir todos los ingredientes y lleva a ebullición.",
+        "Espuma y agrega las verduras peladas y enteras: zanahoria, puerro, apio y nabo.",
+        "Reduce el fuego y cocina a fuego lento durante unas 2 horas o hasta que la carne esté tierna.",
+        "Retira la carne y los huesos, y reserva la carne.",
+        "Añade las patatas peladas y cortadas en trozos grandes a la olla y cocina hasta que estén tiernas.",
+        "Cocina los fideos en la sopa según las instrucciones del paquete.",
+        "Sirve la sopa caliente con la carne cortada en rodajas y las butifarras en rodajas."
+      ]
+    }
+  ]

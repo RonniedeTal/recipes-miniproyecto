@@ -40,6 +40,10 @@
 .read-the-docs {
   color: #888;
 }*/
+body{
+  background-color: rgb(158, 158, 108);
+}
+
 
 #cabecera{
   border:solid  10px black;
@@ -81,4 +85,8 @@
   border-radius: 8px;
   padding: 0.5px;
   margin:2px
+}
+
+.container{
+  background-color: black;
 }
