@@ -1,10 +1,15 @@
-import React from 'react'
-import Recipes from './Recipes'
+import React from 'react' 
+import List from './List'
+
+
 function Home() {
   return (
-    <div>
-       <Recipes />
-    </div>
+    <>
+
+
+       <List />
+      
+    </>
   )
 }
 

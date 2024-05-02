@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function SideBar() {
   return (
     <div className="sider">
-      <button id="boton"><h3>HOME</h3></button>
-      <button id="boton"><h3>About Page</h3></button>
+      <Link to="/"> <button id="boton">HOME</button></Link>
+      <Link to="/about-page"><button id="boton">About Page</button></Link>
     </div>
   )
 }

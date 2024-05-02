@@ -1,78 +1,70 @@
-[
+
+  [
     {
-        "id":1,
-      "nombre": "Crema Catalana",
-      "vegano":false,
-      "ingredientes": [
-        "1 litro de leche entera",
-        "6 yemas de huevo",
-        "200 gramos de azúcar",
-        "1 rama de canela",
-        "La cáscara de 1 limón",
-        "2 cucharadas de maicena",
-        "Azúcar para caramelizar"
-      ],
-      "preparacion": [
-        "En una cacerola, calienta la leche con la canela y la cáscara de limón hasta que esté a punto de hervir.",
-        "Mientras tanto, bate las yemas de huevo con el azúcar hasta que estén espumosas.",
-        "Añade la maicena a las yemas y mezcla bien.",
-        "Retira la canela y la cáscara de limón de la leche y vierte la leche caliente sobre la mezcla de yemas, batiendo constantemente.",
-        "Coloca la mezcla nuevamente en la cacerola y cocina a fuego medio-bajo, revolviendo constantemente, hasta que espese.",
-        "Retira del fuego y vierte la crema en cazuelitas individuales.",
-        "Deja enfriar y refrigera durante al menos 2 horas.",
-        "Antes de servir, espolvorea una fina capa de azúcar sobre cada crema y carameliza con un soplete de cocina o debajo del grill del horno."
-      ]
+      "id": 1,
+      "nombre": "Esqueixada",
+      "vegano": false,
+      "descripcion": "Ensalada de bacalao desmigado, tomate, cebolla y pimiento rojo, aderezada con aceite de oliva.",
+      "preparacion": "1. Desalar el bacalao y desmigarlo en trozos pequeños. 2. Cortar el tomate, la cebolla y el pimiento en rodajas finas. 3. Mezclar todos los ingredientes en un bol grande. 4. Aliñar con aceite de oliva y sal al gusto."
     },
     {
-        "id":2,
-      "nombre": "Pa amb Tomàquet",
+      "id": 2,
+      "nombre": "Samfaina",
       "vegano": true,
-      "ingredientes": [
-        "Pan de payés o rústico",
-        "Tomates maduros",
-        "Ajo",
-        "Aceite de oliva virgen extra",
-        "Sal"
-      ],
-      "preparacion": [
-        "Tuesta las rebanadas de pan en una parrilla o en el horno hasta que estén ligeramente doradas.",
-        "Pela los ajos y córtalos por la mitad.",
-        "Frota las rebanadas de pan con los ajos por ambos lados para impregnar el pan con su sabor.",
-        "Corta los tomates por la mitad y frota la pulpa sobre el pan.",
-        "Riega generosamente con aceite de oliva virgen extra y espolvorea con sal al gusto.",
-        "Sirve como acompañamiento o como aperitivo."
-      ]
+      "descripcion": "Guiso de verduras con tomate, berenjena, calabacín, cebolla y pimiento rojo.",
+      "preparacion": "1. Picar todas las verduras en trozos pequeños. 2. Sofreír la cebolla en aceite de oliva hasta que esté transparente. 3. Agregar el resto de las verduras y cocinar a fuego lento hasta que estén tiernas. 4. Servir caliente."
     },
     {
-        "id":3,
-      "nombre": "Escudella i Carn d'Olla",
-      "vegano":false,
-      "ingredientes": [
-        "500 gramos de carne de ternera para cocido (costilla, morcillo, gallina)",
-        "200 gramos de tocino fresco",
-        "200 gramos de garbanzos",
-        "200 gramos de butifarra negra",
-        "200 gramos de butifarra blanca",
-        "1 hueso de jamón",
-        "1 hueso de espinazo de cerdo",
-        "1 hueso de caña",
-        "1 zanahoria",
-        "1 puerro",
-        "1 rama de apio",
-        "1 nabo",
-        "2 patatas",
-        "200 gramos de fideos gruesos",
-        "Sal al gusto"
-      ],
-      "preparacion": [
-        "En una olla grande, coloca la carne, el tocino, los huesos de jamón, espinazo y caña, y los garbanzos previamente remojados.",
-        "Añade agua suficiente para cubrir todos los ingredientes y lleva a ebullición.",
-        "Espuma y agrega las verduras peladas y enteras: zanahoria, puerro, apio y nabo.",
-        "Reduce el fuego y cocina a fuego lento durante unas 2 horas o hasta que la carne esté tierna.",
-        "Retira la carne y los huesos, y reserva la carne.",
-        "Añade las patatas peladas y cortadas en trozos grandes a la olla y cocina hasta que estén tiernas.",
-        "Cocina los fideos en la sopa según las instrucciones del paquete.",
-        "Sirve la sopa caliente con la carne cortada en rodajas y las butifarras en rodajas."
-      ]
+      "id": 3,
+      "nombre": "Escudella i carn d'olla",
+      "vegano": false,
+      "descripcion": "Cocido catalán hecho con sopa, verduras, carne y embutidos.",
+      "preparacion": "1. Cocinar las carnes en una olla grande con agua durante varias horas. 2. Agregar las verduras y cocinar hasta que estén tiernas. 3. Cocinar los fideos por separado en caldo de la olla. 4. Servir la sopa con los fideos y las carnes y verduras en un plato aparte."
+    },
+    {
+      "id": 4,
+      "nombre": "Coca de recapte",
+      "vegano": true,
+      "descripcion": "Tarta salada hecha con masa de pan y cubierta con escalivada, tomate y aceitunas.",
+      "preparacion": "1. Preparar la masa de pan y estirarla sobre una bandeja de horno. 2. Cubrir la masa con las verduras asadas. 3. Hornear hasta que la masa esté dorada y crujiente. 4. Servir caliente o a temperatura ambiente."
+    },
+    {
+      "id": 5,
+      "nombre": "Faves a la catalana",
+      "vegano": true,
+      "descripcion": "Estofado de habas con cebolla, ajo, tomate y hierbas aromáticas.",
+      "preparacion": "1. Cocinar las habas en agua con sal hasta que estén tiernas. 2. Sofreír la cebolla y el ajo en aceite de oliva hasta que estén dorados. 3. Agregar el tomate y las hierbas aromáticas y cocinar unos minutos más. 4. Incorporar las habas cocidas y cocinar todo junto durante unos minutos más. 5. Servir caliente."
+    },
+    {
+      "id": 6,
+      "nombre": "Crema Catalana",
+      "vegano": false,
+      "descripcion": "Postre tradicional hecho con crema pastelera y caramelo en la parte superior.",
+      "preparacion": "1. Calentar la leche con la canela y la cáscara de limón. 2. Batir las yemas con el azúcar y la maicena. 3. Mezclar la leche caliente con la mezcla de yemas y azúcar. 4. Cocinar a fuego lento hasta que espese. 5. Verter en cazuelitas y dejar enfriar. 6. Espolvorear azúcar sobre la crema y quemarla con un soplete de cocina."
+    },
+    {
+      "id": 7,
+      "nombre": "Xató",
+      "vegano": false,
+      "descripcion": "Ensalada de escarola con bacalao desmigado, atún, anchoas, olivas y salsa romesco.",
+      "preparacion": "1. Lavar y cortar la escarola en trozos grandes. 2. Mezclar la escarola con las aceitunas negras y el pan tostado en un bol grande. 3. Aliñar con la salsa romesco y, si se desea, añadir cebolla cortada en rodajas finas."
+    },
+    {
+      "id": 8,
+      "nombre": "Canelons",
+      "vegano": false,
+      "descripcion": "Pasta rellena con bechamel, espinacas, piñones y pasas, cubierta con salsa de tomate.",
+      "preparacion": "1. Cocinar la pasta para canelones según las instrucciones del paquete. 2. Preparar un relleno con las espinacas, los piñones y las pasas. 3. Rellenar los canelones con esta mezcla. 4. Cubrir los canelones con la salsa de tomate y hornear hasta que estén dorados."
+    },
+    {
+      "id": 9,
+      "nombre": "Pa amb tomàquet",
+      "vegano": true,
+      "descripcion": "Pan con tomate, aceite de oliva, ajo y sal.",
+      "preparacion": "1. Tostar rebanadas de pan. 2. Frotar las rebanadas de pan con ajo crudo. 3. Frotar las rebanadas de pan con tomate. 4. Rocíar con aceite de oliva y espolvorear con sal."
     }
-  ]
+    
+    ]
+
+
+

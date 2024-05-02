@@ -1,10 +1,13 @@
 import React from 'react'
 
-function ListItem() {
+function ListItem(props) {
+  const {id, nombre, vegano, descripcion, preparacion}=props.propseachRecipe
+  console.log(props);
+  
   return (
-    <div>
-      
-    </div>
+    <>
+    
+    </>
   )
 }
 
