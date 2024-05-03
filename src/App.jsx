@@ -7,6 +7,8 @@ import Home from "./components/Home";
 import AboutPage from "./assets/pages/AboutPage";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+import NotFoundPage from "./assets/pages/NotFoundPage";
+import ItemDetailsPage from "./assets/pages/ItemDetailsPage";
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about-page" element={<AboutPage />} />
+            <Route path="*"element={<NotFoundPage/>}/>
+            <Route path="/item-details-page/:recipesname"element={<ItemDetailsPage />}/>
+
           </Routes>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState}from "react"
 import AllRecipes from "../data/recetas.json"
-
+import { Link } from 'react-router-dom'
 
 
 
@@ -35,7 +35,8 @@ function List() {
                  <div key={eachRecipes.id}>
                      
                      <hr />
-                     <h2>{eachRecipes.nombre}</h2>
+                    {/* <h2>{eachRecipes.nombre}</h2>*/}
+                    <Link to={`/item-details-page/${eachRecipes.nombre}`}><h2>{eachRecipes.nombre}</h2></Link>
                      <h2>{eachRecipes.vegano===true? <span>🥦</span>:<span>🍗🥩</span>}</h2>
                 
                   <button onClick={()=>handleDelete(index)}>Borrar</button>
