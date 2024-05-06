@@ -27,7 +27,10 @@ function List() {
   };
   return (
     <div>
-          <Forms />
+          <Forms 
+          recipesToShow={recipesToShow}
+          setRecipesToShow={setRecipesToShow} />
+
       <h1>Recetas:</h1>
 
       {/* {/* {<button onClick={handleAddRecipes}>Cocina Catalana</button>}*/}

@@ -4,7 +4,7 @@ import AllRecipes from "../data/recetas.json";
 console.log(AllRecipes);
 
 
-function Forms() {
+function Forms(props) {
   //const[recipes, setRecipes] = useState(AllRecipes)
   const [nombre, setNombre] = useState("");
   const [descripcion, setDescripcion] = useState("");
@@ -34,7 +34,7 @@ function Forms() {
     preparacion,
    
   };
-  setRecipesToShow([...recipesToShow, newRecipe]);
+  props.setRecipesToShow([...props.recipesToShow, newRecipe]);
   setNombre("");
   setVegano(false);
   setDescripcion("");
