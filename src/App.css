@@ -45,6 +45,8 @@ body {
 }
 
 #cabecera {
+  background-image :url("../assets/images/navbar-background.jpg");
+  
   border: solid 10px black;
   display: flex;
   justify-content: space-around;
@@ -56,6 +58,7 @@ body {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
+  
 }
 
 .imgNavBar {

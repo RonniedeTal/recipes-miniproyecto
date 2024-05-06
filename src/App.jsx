@@ -24,10 +24,12 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about-page" element={<AboutPage />} />
             <Route path="*"element={<NotFoundPage/>}/>
-            <Route path="/item-details-page/:recipesname"element={<ItemDetailsPage />}/>
+            <Route path="/item-details-page/:recipesName"element={<ItemDetailsPage />}/>
+            
 
           </Routes>
         </div>
+        
       </div>
       <Footer />
     </>

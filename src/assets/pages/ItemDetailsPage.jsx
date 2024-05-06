@@ -6,8 +6,9 @@ function ItemDetailsPage() {
     const parametrosDinamicos=useParams()
     console.log(parametrosDinamicos);
 
-    const foundRecipe=AllRecipes.find((eachRecipes)=>{
-        return eachRecipes.nombre===parametrosDinamicos.nombre
+    const foundRecipe=AllRecipes.find((eachRecipe)=>{
+        return eachRecipe.nombre==parametrosDinamicos.recipesName
+        
     })
     console.log(foundRecipe);
   return (

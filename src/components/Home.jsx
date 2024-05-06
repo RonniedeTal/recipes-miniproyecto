@@ -6,8 +6,9 @@ function Home() {
   return (
     <>
 
-
+    
        <List />
+
       
     </>
   )
