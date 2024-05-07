@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 function NavBar(props) {
   return (
-    <div id="cabecera">
-       {/* <img className="imgNavBar" src={props.picture} />*/}
-      <h1>Cocina con Oriol</h1>
-    </div>
-  )
+    <header id="cabecera">
+    
+      <h1 className="titulo-cabecera">Cocina <br />con Oriol</h1>
+    </header>
+  );
 }
 
-export default NavBar
+export default NavBar;

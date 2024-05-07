@@ -1,10 +1,9 @@
-/*#root {
-  max-width: 1280px;
+#root {
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  font-family: "Helvetica", sans-serif;
 }
-
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -45,24 +44,28 @@ body {
 }
 
 #cabecera {
-  background-image :url("../assets/images/navbar-background.jpg");
-  
-  border: solid 10px black;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: bottom;
-
-  padding: 10px;
-  background-color: brown;
+  height: 250px;
+  background-image: url("./assets/images/navbar-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  
+  color: white;
+  height: 250px;
+  position: relative;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+
 }
 
-.imgNavBar {
-  width: 100px;
+#titulo-cabecera {
+  position: absolute;
+  top: 80%;
+  margin: auto;
+  
+  font-weight: bolder;
 }
 
 .sider {

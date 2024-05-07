@@ -6,7 +6,7 @@ function ListItem(props) {
   
   return (
     <>
-    
+    <h1>Nueva receta</h1>
     </>
   )
 }

@@ -1,11 +1,6 @@
-import React from "react";
-import { useState } from "react";
-import AllRecipes from "../data/recetas.json";
-console.log(AllRecipes);
-
+import React, { useState } from "react";
 
 function Forms(props) {
-  //const[recipes, setRecipes] = useState(AllRecipes)
   const [nombre, setNombre] = useState("");
   const [descripcion, setDescripcion] = useState("");
   const [vegano, setVegano] = useState(false);
@@ -18,32 +13,34 @@ function Forms(props) {
   const handleDescripcionChange = (event) => {
     setDescripcion(event.target.value);
   };
+
   const handlePreparacionChange = (event) => {
     setPreparacion(event.target.value);
   };
+
   const handleVeganoChange = (event) => {
     setVegano(event.target.checked);
   };
 
- const handleSubmit = (event) => {
-  event.preventDefault();
-  const newRecipe = {
-    nombre,
-    descripcion,
-    vegano,
-    preparacion,
-   
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const newRecipe = {
+      
+      nombre,
+      descripcion,
+      vegano,
+      preparacion,
+    };
+    props.onAddRecipe(newRecipe);
+    setNombre("");
+    setVegano(false);
+    setDescripcion("");
+    setPreparacion("");
   };
-  props.setRecipesToShow([...props.recipesToShow, newRecipe]);
-  setNombre("");
-  setVegano(false);
-  setDescripcion("");
-  setPreparacion("");
-};
 
   return (
-    <form onSubmit = {handleSubmit}>
-      <h1>Añade una receta</h1>
+    <form onSubmit={handleSubmit}>
+      <h1>Añade una nueva receta</h1>
 
       {/* FORM */}
       <div>
@@ -62,7 +59,7 @@ function Forms(props) {
           <label>
             Descripción:
             <input
-              name="Descripción"
+              name="descripcion"
               type="text"
               placeholder="Descripción de la receta"
               value={descripcion}
@@ -74,7 +71,7 @@ function Forms(props) {
           <label>
             Preparación:
             <input
-              name="Preparación"
+              name="preparacion"
               type="text"
               placeholder="Preparación de la receta"
               value={preparacion}
@@ -85,17 +82,14 @@ function Forms(props) {
           <label>
             Vegano
             <input
-              name="Vegano"
+              name="vegano"
               type="checkbox"
               checked={vegano}
               onChange={handleVeganoChange}
             />
           </label>
           <br />
-          <button type="submit">Anadir receta</button>
-     
-        
-
+          <button type="submit">Añadir receta</button>
         </div>
       </div>
     </form>
