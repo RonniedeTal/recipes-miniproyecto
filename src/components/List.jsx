@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Forms from "./Forms";
 import ItemDetailsPage from "../assets/pages/ItemDetailsPage";
 function List() {
-  const [recipesToShow, setRecipesToShow] = useState([]);
+  const [recipesToShow, setRecipesToShow] = useState(AllRecipes);
 
   const handleAddRecipe = (newRecipe) => {
     const updatedRecipes = [...recipesToShow, newRecipe];
